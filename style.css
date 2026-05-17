@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+body {
+    font-family: "Roboto";
+}
+.hero{
+    text-align: center;
+    background-color: #2F303A;
+}
+.hero-title{
+    color: white;
+}
+.advantages-text{
+    color: #757575;
+}
+.work-gallery{
+    text-align: center;
+}
+.footer{
+    background-color: #2F303A;
+}
+.footer-item-contacts{
+    color: #8D8D8D;
+}
+.footer-item-adress{
+    color: white;
+}
