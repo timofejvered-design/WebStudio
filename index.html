@@ -6,27 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="style.css">
-    <link
-  rel="stylesheet"
-  href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-/>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
 </head>
 
 <body>
     <header class="header">
-        <img class="header-logo" src="img/WebStudio.png" alt="logo.">
         <nav class="header-navigation">
+            <img class="header-logo" src="img/WebStudio.png" alt="logo.">
             <ul class="header-menu">
-                <li class="header-item"><a href="Студія">Студія</a></li>
-                <li class="header-item"><a href=""></a>Портфоліо</li>
-                <li class="header-item"><a href="">Контакти</a></li>
+                <li class="header-item"><a href="Студія" class="header-link active">Студія</a></li>
+            </ul>
+            <ul>
+                <li class="header-item"><a href="" class="header-link"></a>Портфоліо</li>
+            </ul>
+            <ul>
+                <li class="header-item"><a href="" class="header-link">Контакти</a></li>
             </ul>
 
-        </nav>
-        <ul class="header-contacts">
-            <li class="header-item"><a href="">info@devstudio.com</a></li>
-            <li class="header-item"><a href="">+38 096 111 11 11</a></li>
-        </ul>
+
+        <div class="header-contacts">
+        <ul class="header-contacts-navigation">
+            <li class="header-item"><a href="" class="header-link">info@devstudio.com</a></li>
+            </ul>
+            <ul>
+            <li class="header-item"><a href="" class="header-link">+38 096 111 11 11</a></li>
+            </ul>
+            </div>
+            </nav>
     </header>
     <main class="main">
         <section class="hero">
@@ -54,13 +60,6 @@
                 <p class="advantages-text">Значимість цих проблем настільки очевидна,
                     що реалізація планових завдань.</p>
             </div>
-            <section class="team">
-                <h2 class="team-title">Наша команда</h2>
-                <div class="team-card">
-                    <img class="team-image" src="img/img.jpg" alt="photo" width="320">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p class="team-job">Product Designer</p>
-                </div>
             </section>
             <section class="work">
                 <div class="work-gallery">
@@ -70,6 +69,13 @@
                     <img class="work-image" src="img/box 3.png" alt="photo">
                 </div>
             </section>
+            <section class="team">
+                <h2 class="team-title">Наша команда</h2>
+                <div class="team-card">
+                    <img class="team-image" src="img/img.jpg" alt="photo" width="320">
+                    <h3>Ігор Дем'яненко</h3>
+                    <p class="team-job">Product Designer</p>
+                </div>
             <div class="team-card">
                 <img class="team-image" src="img/img (1).jpg" alt="photo" width="320">
                 <h3 class="team-name">Ольга Рєпіна</h3>

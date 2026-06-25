@@ -9,6 +9,7 @@ body {
 .hero{
     text-align: center;
     background-color: #2F303A;
+    padding: 80px 0px 80px 0px;
 }
 .hero-title{
     color: white;
@@ -16,9 +17,15 @@ body {
 .advantages-text{
     color: #757575;
 }
+.advantages{
+    display: flex;
+    justify-content: center;
+}
 .work-gallery{
     text-align: center;
+    margin: 50;
 }
+
 .footer{
     background-color: #2F303A;
 }
@@ -27,4 +34,67 @@ body {
 }
 .footer-item-adress{
     color: white;
+}
+.header-navigation{
+    display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0px 20px 0px 0px;
+}
+ul {
+  list-style: none;
+}
+.header-item{
+    margin: 0px 20px 0px 10px;
+    justify-content: space-between;
+    justify-content: end;
+    position: relative;
+}
+.header-contacts{
+    display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: auto;
+}
+.hero-button{
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background-color: #2196F3 ;
+}
+.team{
+    display: flex;
+    justify-content: center;
+}
+.header-link{
+    text-decoration: none;
+    color: #000000;
+}
+.header-link:hover{
+    color: #2196F3;
+}
+.active{
+    color:#2196F3 ;
+}
+.header-link.active::after{
+    position: absolute;
+    bottom: -10px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+   background-color:#2196F3;
+}
+.team:hover.team-card{
+    color: #F38181;
+}
+.team-card{
+    border: 2px solid#2F303A;
+}
+.team{
+    display: flex;
+    gap: 75px;
+}
+.team-card{
+    position: relative;
+    overflow: hidden;
 }
